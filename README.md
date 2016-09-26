@@ -3,7 +3,7 @@
 
 Name: `James Luo`
 
-ONID ID: `luoja@oregonstate.edu`
+ONID ID: `luoja`
 
 Link to my CS 290 page: `http://web.engr.oregonstate.edu/~luoja/`
 
