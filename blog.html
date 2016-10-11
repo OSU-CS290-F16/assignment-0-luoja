@@ -1,27 +1,71 @@
 <html>
-  
+
   <head>
     <title>CS290 Blog</title>
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
-  
+
   <body>
   	<center><h1>CS290 Blog</h1></center>
 	<br>
-    
-		<h2>Assignment 0 Entry - 9/23/2016</h2>
-	    <p>I was basically clueless coming into this assignment. I completed the tutorials, but the second one ended up confusing me even 
-		<br>more after I checked Piazza. Two of the questions, "[Assignment 0] Parts 3 & 4" and "Push & Submit" talked about flip and 
-		<br>github (sadly, it took me a few minutes to even figure out what flip was referring to), and I couldn't really tell how the
-		<br>two were related. Thankfully, one of the kind souls in this universe put up some screenshots on Piazza, and after messing 
-		<br>around with it a bit, I finally came to the realization that doing the changes on flip or github made little to no 
-		<br>difference. After that, I more or less managed to make the edits and what not without too much trouble. If I'm
-		<br>to summarize the troubles I had, it would be that I didn't even understand what flip and github were, nor how the latter 
-		<br>worked.</p>
-		<p>As for what I learned, I finally have a grasp on what github is, so I think I can answer some of my questions just by messing around
-		<br>with it for a bit. I also managed to figure out how to connect to my OSU Engineering directory thing as a side effect of said 
-		<br>messing around. And lastly, I've definitely seen how useful Piazza is, and I'll probably be relying on it quite a bit for the 
-		<br>remainder of the term.</p>
 
+    <section class="Entry">
+		<h2>Assignment 0 Entry - 9/23/2016</h2>
+        <div class="Content0">
+    	    <p>I was basically clueless coming into this assignment. I completed the tutorials, but the second one ended up confusing me even
+    		more after I checked Piazza. Two of the questions, "[Assignment 0] Parts 3 & 4" and "Push & Submit" talked about flip and
+    		github (sadly, it took me a few minutes to even figure out what flip was referring to), and I couldn't really tell how the
+    		two were related. Thankfully, one of the kind souls in this universe put up some screenshots on Piazza, and after messing
+    		around with it a bit, I finally came to the realization that doing the changes on flip or github made little to no
+    		difference. After that, I more or less managed to make the edits and what not without too much trouble. If I'm
+    		to summarize the troubles I had, it would be that I didn't even understand what flip and github were, nor how the latter
+    		worked.</p>
+    		<p>As for what I learned, I finally have a grasp on what github is, so I think I can answer some of my questions just by messing around
+    		with it for a bit. I also managed to figure out how to connect to my OSU Engineering directory thing as a side effect of said
+    		messing around. And lastly, I've definitely seen how useful Piazza is, and I'll probably be relying on it quite a bit for the
+    		remainder of the term.</p>
+        </div>
+    </section>
+
+
+    <br>
+    <section class="Entry">
+        <h2>Assignment 1 Entry - 10/7/2017</h2>
+        <div class="Content1">
+            <p>Just like the last assignment, I had zero prior experience with CSS. Since I had figured out how to use git and the lecture had covered
+            how to use CSS, I thought that it would be a lot easier than the last one. It wasn't. This assignment, and I guess CSS as a whole, is probably
+            one of the most frustrating things I've ever worked through. I don't know if it's better described as challenging or annoying, but figuring out
+            which classes/sections/tags to place the code in was a huge issue for me. For example, when I was trying to change the font for the ToDoIt header,
+            I placed the font-family and font-size in h1 and it worked. From this, I assumed all "ToDoIt" related edits would be in h1, but text-decoration: none;
+            wouldn't work, and neither would color. Honestly, I still don't get why that particular case doesn't work, but I more or less got from that that
+            you usually have to be really specific with what part you want changed, or it'll do something unwanted. Also, I found out that simply adding or
+            removing single lines of code won't usually tell you where the problem is. Unlike in normal programming, where you comment out certain parts to
+            locate the problem, CSS seems to always have multple variable involved in everything. I can't think of a good example, but it's something like when i
+            was trying to remove white space between the header and navbar by removing the header's margins, the space wouldn't disappear because the navbar's margins
+            were still there. Also, I used display: inline-flex; and flex-wrap: wrap; individually, they wouldn't do what I was hoping for, but when using both, it works.
+            Lastly, changing something in the stylesheet and seeing the wrong change in the site is sad, but altering the stylesheet and seeing no change at all is
+            probably even worse. At least when i have a syntax error, the compiler just tells it to me straight. Here, I can't tell if the problem is using
+            the wrong selector (as in the h1 and h1 a issue i mentioned earlier, or display:inline-block in nav/navbar-list), mixing up the selectors and putting the code in the wrong part (inline-blocking nav or
+            navbar instead of navbar-item), simply incorrect syntax (this happened with box-shadow, where i used commas)or if it's technically working,
+            just not as i intended (I think this was the case with text-align:right on navbar-item.navbar-right).
+            I know those problems might sound a little dumb, but for me, it was a real problem that took hours to figure out.</p>
+            <p>That being said, the slow process of solving those problems did give me plenty of time to figure some things out. The fact that i (think) i can explain the reasoning
+            behind the problems in my CSS were is something that i definitely couldn't do back when i started this assignment. Although I'm still not completely clear on
+            when to use what selectors and classes, I'm confident i can muddle my way through it much faster than before. That is to say, I learned what and where some of the possible
+            problems could be, and although I don't necessarily understand why they're causing said problems, because i know where they are, I can just do a ton of guess and check
+            to make it work out. </p>
+            <p>Sadly, Piazza didn't help as much as it did last time, although i did get a slightly unrelated problem solved there. One of the reasons for this is that, oddly enough, it seems
+            like solutions that work for some people don't always work for others, probably because of other variables in their CSS. Honestly, the answers regarding position:fixed and
+            position:relative seemed to conflict with each other, making it even more confusing. On the other hand, developer tools were a godsend. Most of my problems regarding selectors
+            and classes were resolved using the chrome developer tools, since they allowed me to see what each selector/class was actually pointing to. Specifically, i could indentify things
+            like how the classes/selectors were split up between the nav bar items. It helped a lot with changing the padding, margins, and text (which i initially tried to do in just nav and
+            navbar-list). I used a random site called w3schools for help with a few pieces of syntax that were unclear from my lecture notes, as well as for picking colors. As for the exact things
+            i googled, it was stuff like "css how to align list item to the right" and "Css how to insert space between content and footer". Unfortunetly, I came back empty handed from a lot of
+            my searches, since the source of my problems were usually different (like being unable to use text-decoration: none because my selector was wrong), and if anything, it just made things
+            more frustrating seeing everyone give an answer that just didn't seem to work for me.
+            </p>
+        </div>
+    </section>
   </body>
-  
+
 </html>
