@@ -11,7 +11,7 @@
 
     <section class="Entry">
 		<h2>Assignment 0 Entry - 9/23/2016</h2>
-        <div class="Content0">
+        <div class="Content">
     	    <p>I was basically clueless coming into this assignment. I completed the tutorials, but the second one ended up confusing me even
     		more after I checked Piazza. Two of the questions, "[Assignment 0] Parts 3 & 4" and "Push & Submit" talked about flip and
     		github (sadly, it took me a few minutes to even figure out what flip was referring to), and I couldn't really tell how the
@@ -30,8 +30,8 @@
 
     <br>
     <section class="Entry">
-        <h2>Assignment 1 Entry - 10/7/2017</h2>
-        <div class="Content1">
+        <h2>Assignment 1 Entry - 10/7/2016</h2>
+        <div class="Content">
             <p>Just like the last assignment, I had zero prior experience with CSS. Since I had figured out how to use git and the lecture had covered
             how to use CSS, I thought that it would be a lot easier than the last one. It wasn't. This assignment, and I guess CSS as a whole, is probably
             one of the most frustrating things I've ever worked through. I don't know if it's better described as challenging or annoying, but figuring out
@@ -63,6 +63,53 @@
             i googled, it was stuff like "css how to align list item to the right" and "Css how to insert space between content and footer". Unfortunetly, I came back empty handed from a lot of
             my searches, since the source of my problems were usually different (like being unable to use text-decoration: none because my selector was wrong), and if anything, it just made things
             more frustrating seeing everyone give an answer that just didn't seem to work for me.
+            </p>
+        </div>
+    </section>
+
+    <br>
+    <section class="Entry">
+        <h2>Assignment 2 Entry - 10/20/2016</h2>
+        <div class="Content">
+            <p>I was new to javascript as well when I started this assignment, but to sum it up, this one went much smoother than the last. I spent a few hours on it, but it took less than half
+                the time the CSS assignment did, and it was also far less frustrating. A HUGE contributor to this was the example posted on the class site, the DOM Manipulation Fiddle. With CSS,
+                i had tons of trouble figuring out what classes i had to use for each change. On the other hand, with this assignment, referencing the example helped a lot with figuring out the whole
+                parent/child node concept. It took a while to understand the order i had to append things in, but overall, I definitely felt that javascript was much more direct with what classes you
+                had to call for each change. Another thing that helped was the ability to use console.log(event.target) to figure out what you're clicking on. It was a nice way to check to make sure
+                i was using the right container/parentNode. The content from the lectures, or rather, my notes from said lectures, also helped a few times with syntax, although i did end up having
+                to look up a few as well.
+            </p>
+            <p>I didn't actually feel that this assignment was challenging. By that, i don't think i mean that it was easy, since it still took a few hours to do. It's more like, compared to the last one,
+                this was so much less frustrating that it didn't feel bothersome to do. Most of the times i made a change, it did exactly what i intended it to do. For the times where i got unintended results,
+                it didn't take very long to figure out why and to fix it. Comparing that to the last assignment, where i didn't know where or what the problem was 90% of the time, makes this one seem
+                fun. I think most people in computer science understand what i mean when i say that going through the coding without encountering any bugs makes you feel sort of accomplished, considering how
+                it's usually a "guess and check" ordeal. The hardest part about it was understanding the parent/child node concept at the start, as well as looking up the syntax for doing what i wanted to do.
+                Most of it was in the example, but I had trouble remebering parts such as getElementById, and i had to look up things like how to replace/remove a class from an element, or how to set an id
+                and type for input elements (to clear the modal, i remade the input elements, so i had to set the type and id before appending them). Stackoverflow answered quite a few of these questions for me,
+                although as usual, it took a while to find the answer i wanted (i.e. some used innerHTML). On a side note, i never figured out how to use &amp;times; in javascript, since it would just show up as
+                &amp;times; instead of &times;.
+            </p>
+        </div>
+    </section>
+
+    <br>
+    <section class = "Entry">
+        <h2>Assignment 3 Entry - 11/3/2016</h2>
+        <div class="Content">
+            <p>This assignment was somewhat similar to the javascript assignment for me, in that it didn't take too long, and wasn't all that frustating either. That being said, it was a lot more troublesome
+                than the previous assignment, primarily because I felt like I had even less of an idea of what I was doing at the start. The biggest challenge of the entire assignment was probably just getting
+                the files to show up. I actually had to search around StackOverflow just to get started with this, and I ran into plenty of problems along the way, one of which was that I had a
+                resp.end(); line somewhere in readFile's function, (the end i think?) and apparently it stopped anything from being displayed on the page. I couldn't tell whether or not it was the
+                output that wasn't working, or if my inputs for readFile were the problem. Sadly, I didn't have a process for figuring out which one it was, and I couldn't find the answer online either. I just
+                had to go through and insert/delete random lines for an hour or two until the ToDoIt page finally showed up. After I got the files to show up, the rest was a lot smoother. I actually didn't
+                understand what the assignment meant by "server reads files in public/ exactly once and caches them." until one of the Piazza answers noted that "This would be easier if you read in the contents
+                of your files outside your request handling function.". I had to change my code a bit, but the end result felt a lot simpler than what I had originally, to the extent that I thought I might've
+                still been interpreting it wrong.
+            </p>
+            <p>The most helpful resources this time were definitely StackOverflow, and a little bit of Piazza for clarifying one of the assignment requirements. I tried looking at the actual documentation for
+                some of the node stuff, but it was definitely too specific/convoluted for me to understand. Something I didn't notice when I was working with javascript before was that the whole nexted functions
+                (i don't know what they're actually called, but it's when you define a function on the same line as something else, like http.createServer(function(req, resp){} rather than function handleRequest
+                (req,resp){}) thing can be really confusing. I originally had readFile nested inside of createServer, and changing it was actually quite confusing.
             </p>
         </div>
     </section>
